@@ -5,7 +5,6 @@
 using namespace std;
 
 int howmany, what;
-deque<int> arr;
 int fruit[200000];
 int mp[10] = {0,};
 int mm = 0;
