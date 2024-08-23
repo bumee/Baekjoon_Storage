@@ -1,0 +1,1 @@
+{"name":"Local: BOJ9465","url":"c:\\Users\\USER\\Desktop\\BOJ\\BOJ9465.cpp","tests":[{"id":1724337663306,"input":"2\n5\n50 10 100 20 40\n30 50 70 10 60\n7\n10 30 10 50 100 20 40\n20 40 30 50 60 20 80","output":"260\n290"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\Users\\USER\\Desktop\\BOJ\\BOJ9465.cpp","group":"local","local":true}
