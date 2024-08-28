@@ -28,12 +28,12 @@ void solve() {
         }
 
         for (int i = 0; i < mp[cur].size(); i++) {
-            int ViaCost = cost + mp[cur][i].first;
-            int Next = mp[cur][i].second;
-            if (score[Next] < ViaCost)
+            int finalcost = cost + mp[cur][i].first;
+            int target = mp[cur][i].second;
+            if (score[target] <= finalcost)
                 continue;
-            score[Next] = ViaCost;
-            q.push({ViaCost, Next});
+            score[target] = finalcost;
+            q.push({finalcost, target});
         }
         
     }

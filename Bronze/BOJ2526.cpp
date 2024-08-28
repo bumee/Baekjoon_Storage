@@ -21,8 +21,5 @@ int main() {
         if(dp[i]>=2)cnt++;
     }
     cout << cnt << '\n';
-    
-
-
     return 0;
 }
